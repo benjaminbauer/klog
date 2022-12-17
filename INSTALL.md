@@ -45,7 +45,7 @@ cd klog
 In order to build the project, run:
 
 ```
-go build klog.go
+go build -o ./out/klog klog.go 
 ```
 
 This automatically resolves the dependencies and compiles the source code into an
